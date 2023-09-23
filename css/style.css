@@ -1,0 +1,289 @@
+main {
+  margin-top: 10rem;
+}
+header {
+  max-width: 1500px; /* Define a largura máxima do container */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+  padding-left: 15px; /* Adiciona um espaçamento interno à esquerda */
+  padding-right: 15px; /* Adiciona um espaçamento interno à direita */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  background-color: #fff; /* Defina a cor de fundo desejada */
+  z-index: 100; /* Certifique-se de que o valor do z-index seja alto o suficiente */
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 76px;
+}
+ul li {
+  font-weight: bold;
+}
+#firtSection {
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  max-width: 1500px; /* Define a largura máxima do container */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+  padding-left: 15px; /* Adiciona um espaçamento interno à esquerda */
+  padding-right: 15px; /* Adiciona um espaçamento interno à direita */
+}
+.item:hover {
+  color: #ea0101;
+}
+#btnWpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #25d366;
+  color: #fff;
+  cursor: pointer;
+}
+#btnWpp:hover {
+  background-color: #21be5c;
+}
+#btnWpp svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  font-size: 27pt;
+  font-weight: bold;
+  color: #333333;
+  font-family: 'Playfair Display SC', serif;
+}
+.logo span {
+  color: #ea0101;
+}
+#descricacao {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex-basis: 50%;
+}
+#descricacao h2 {
+  font-size: 1.5rem;
+  color: #333333;
+}
+#descricacao h1 {
+  color: #ea0101;
+  font-size: 4.5rem;
+  font-family: 'Playfair Display SC', serif;
+}
+#descricacao div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+#descricacao p {
+  max-width: 80%;
+}
+.btnIfood {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ea0101;
+  color: #fff;
+  cursor: pointer;
+  gap: 1rem;
+}
+.btnIfood:hover {
+  background-color: #bb0101;
+}
+.btnIfood svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+#btnMenu {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f97b22;
+  color: #fff;
+  cursor: pointer;
+  gap: 1rem;
+}
+#btnMenu:hover {
+  background-color: #e06f1f;
+}
+.btnIfood svg {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+#ifoto {
+  background-image: url('/public/hamburguer.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 5px;
+  flex-basis: 50%;
+}
+.ihorario {
+  gap: 0.5rem !important;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.ihorario h3 {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.ihorario p {
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+#secondSection {
+  background-color: #fafafa;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem 0;
+}
+#titleSection h3 {
+  font-size: 2rem;
+  font-family: 'Playfair Display SC', serif;
+}
+#titleSection h2 {
+  font-size: 3rem;
+  color: #ea0101;
+  font-family: 'Playfair Display SC', serif;
+}
+#titleSection {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.content {
+  width: 100%;
+  max-width: 1500px; /* Define a largura máxima do container */
+  margin-left: auto; /* Centraliza horizontalmente */
+  margin-right: auto; /* Centraliza horizontalmente */
+  padding-left: 15px; /* Adiciona um espaçamento interno à esquerda */
+  padding-right: 15px; /* Adiciona um espaçamento interno à direita */
+}
+.card {
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid #000;
+  width: calc(220px + 4rem);
+  padding: 2rem;
+  padding-top: 150px;
+  position: relative;
+}
+.card h4 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.valor {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card button {
+  padding: 1rem;
+  width: 100%;
+  border: none;
+  background-color: #ea0101;
+  color: #fff;
+  border-radius: 1rem;
+}
+.card button:hover {
+  background-color: #bb0101;
+  cursor: pointer;
+}
+#x-burguer {
+  background-image: url('/public/x-burguer.jpg');
+}
+.image-card {
+  height: 220px;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #ea0101;
+  border-radius: 220px;
+  width: 220px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -100px;
+}
+#boloRedVelvet {
+  background-image: url('/public/bolored.jpg');
+}
+.conteinercard {
+  display: flex;
+  gap: 1rem;
+  margin-top: 150px;
+}
+#macarronada {
+  background-image: url('/public/macarronada.jpg');
+}
+#pizza {
+  background-image: url('/public/pizza.jpg');
+}
+#thirdsection {
+  background-color: #ffe8e8;
+  padding: 5rem 0;
+}
+.title h3 {
+  font-size: 1.5rem;
+  color: #333333;
+}
+.title h2 {
+  font-size: 3rem;
+  color: #ea0101;
+  font-family: 'Playfair Display SC', serif;
+}
+#thirdsection p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.one {
+  display: flex;
+}
+.one img {
+  width: 1500px;
+}
+.icon svg {
+  width: 40px;
+}
+#redesSociais {
+  display: flex;
+  gap: 1rem;
+}
+footer {
+  padding: 5rem 0;
+}
+footer p {
+  margin: 1rem 0;
+}
+#fourSection iframe {
+  width: 100%;
+}
